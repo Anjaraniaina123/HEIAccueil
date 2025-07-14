@@ -9,6 +9,10 @@ import { Domaine } from './composant/Domaine'
 import Admission from './composant/Admission'
 import Programme from './composant/Programme'
 import Technos from './composant/Technos'
+import Partenaires from './composant/Partenaires'
+import Footer from './composant/Footer'
+
+
 
 
 
@@ -24,6 +28,8 @@ const App = () => {
       <Admission></Admission>
       <Programme></Programme>
       <Technos></Technos>
+      <Partenaires></Partenaires>
+      <Footer></Footer>
     </div>
   )
 }
