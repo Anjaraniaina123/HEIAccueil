@@ -6,6 +6,11 @@ import {About} from './composant/About'
 import {Equipe} from './composant/Equipe'
 import {Debouche} from './composant/Debouche'
 import { Domaine } from './composant/Domaine'
+import Admission from './composant/Admission'
+import Programme from './composant/Programme'
+import Technos from './composant/Technos'
+
+
 
 const App = () => {
   return (
@@ -16,6 +21,9 @@ const App = () => {
       <Equipe></Equipe>
       <Debouche></Debouche>
       <Domaine></Domaine>
+      <Admission></Admission>
+      <Programme></Programme>
+      <Technos></Technos>
     </div>
   )
 }
