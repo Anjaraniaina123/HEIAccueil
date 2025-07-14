@@ -49,7 +49,7 @@ export const Banniere = () => {
         style={{ backgroundImage: `url(${current.image})` }}
       >
         <div className="absolute inset-0 bg-opacity-30 flex flex-col items-center justify-center /-center p-4">
-          <h1 className="font-[var(--garamond)] text-4xl md:text-6xl mb-20 text-white">
+          <h1 className="font-garamond text-4xl md:text-6xl mb-20 text-white">
             Haute École d'Informatique
           </h1>
           
@@ -60,19 +60,19 @@ export const Banniere = () => {
           <div className="mt-8 flex flex-wrap gap-15 justify-center">
             <a
               href="#"
-              className="bg-white text-blue-950 px-10 py-4 rounded shadow hover:bg-gray-100 font-semibold transition text-2xl"
+              className="bg-white text-blue-950 px-5 py-4 rounded shadow hover:bg-gray-100 font-semibold transition"
             >
               Inscrivez-vous ici
             </a>
             <a
               href="#"
-              className="bg-[#DFA408] text-white px-10 py-4 rounded shadow hover:bg-yellow-300 font-semibold transition text-2xl"
+              className="bg-[#DFA408] text-white px-5 py-4 rounded shadow hover:bg-yellow-300 font-semibold transition"
             >
               Emploi du temps
             </a>
             <a
               href="#"
-              className="bg-[#001948] text-white px-10 py-4 rounded shadow hover:bg-[#002d6c] font-semibold transition text-2xl"
+              className="bg-[#001948] text-white px-5 py-4 rounded shadow hover:bg-[#002d6c] font-semibold transition"
             >
               Programme pédagogique
             </a>
